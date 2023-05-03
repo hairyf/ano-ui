@@ -1,4 +1,4 @@
-import type { ExtractPropTypes, InjectionKey, PropType } from 'vue'
+import type { ExtractPropTypes, InjectionKey, PropType, Ref } from 'vue'
 import { CLICK_EVENT } from '../constants'
 import { useCustomClassProp, useCustomStyleProp } from '../composables'
 

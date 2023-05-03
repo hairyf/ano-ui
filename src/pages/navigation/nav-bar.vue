@@ -74,7 +74,7 @@ function onClickRight() {
           Title
         </template>
         <template #right>
-          <div class="i-tabler-search a-nav-bar-icon" />
+          <div class="a-nav-bar-icon i-tabler-search" />
         </template>
       </ANavBar>
       <div class="p-4">

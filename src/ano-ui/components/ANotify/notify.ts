@@ -1,7 +1,7 @@
 import type { ExtractPropTypes, PropType } from 'vue'
 import { useCustomClassProp, useCustomStyleProp } from '../composables'
 import { CLOSE_EVENT } from '../constants'
-import type { NotifyOptions, NotifyPositionType, NotifyType } from './types'
+import type { NotifyPositionType, NotifyType } from './types'
 
 export const useNotifyTypeProp = {
   type: String as PropType<NotifyType>,

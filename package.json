@@ -70,8 +70,10 @@
     "build:quickapp-webview-union": "uni build -p quickapp-webview-union",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
-    "lint:fix": "nr lint --fix",
-    "new": "plop component"
+    "lint:fix": "npm run lint --fix",
+    "new": "plop component",
+    "docs": "npm -C docs run docs:dev",
+    "deploy": "npm run build && npm -C docs run docs:build"
   },
   "peerDependencies": {
     "vue": "^3.2.0"

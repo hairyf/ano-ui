@@ -33,7 +33,7 @@ const {
         <div v-if="hasLeft" class="a-nav-bar-left" :class="clickableClassName" :hover-class="clickable ? 'a-nav-bar-clickable-hover' : ''" @click="clickLeftHandler">
           <slot v-if="$slots.left" name="left" />
           <template v-else>
-            <div v-if="leftArrow" class="i-tabler-chevron-left mr-1 a-nav-bar-icon" />
+            <div v-if="leftArrow" class="a-nav-bar-icon i-tabler-chevron-left mr-1" />
             <span v-if="leftText" class="a-nav-bar-text">{{ leftText }}</span>
           </template>
         </div>

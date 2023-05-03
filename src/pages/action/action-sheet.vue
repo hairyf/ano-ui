@@ -27,7 +27,7 @@ function onCancel() {
       <div class="p-4">
         Basic
       </div>
-      <ACellGroup arrow divider inset>
+      <ACellGroup divider arrow inset>
         <ACell title="Show" @click="showValue = true" />
         <ACell title="Show Cancel" @click="showValue2 = true" />
       </ACellGroup>
